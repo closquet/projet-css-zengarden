@@ -1,11 +1,13 @@
 
 @import "settings/core";
 
-@import "tools/mixin";
+@import "tools/functions";
+@import "tools/mixins";
 
 @import "generic/reset";
 
 @import "base/page";
+@import "base/headings";
 
 @import "components/banner";
 @import "components/summary";
@@ -13,17 +15,7 @@
 @import "components/main";
 @import "components/requirements";
 @import "components/footer";
-
-
-
-
-
-
-
-
-
-
-
+@import "components/sidebar";
 
 
 

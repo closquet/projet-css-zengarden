@@ -1,0 +1,15 @@
+//@for $i from 1 through 3 {
+//  h#{$i}{
+//    font-size: fPow-font-ratio(1rem, $font-ratio, 4 - $i);
+//  }
+//}
+
+h1{
+  font-size: 7em;
+}
+h2{
+  font-size: 2.5em;
+}
+h3{
+  font-size: 1.5em;
+}

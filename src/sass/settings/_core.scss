@@ -3,7 +3,9 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
 $global-font-size: 22px;
-$global-line-height: 1.5em;
+$global-line-height: 1.4;
+//$font-ratio: 1.802;
+
 
 $vertical-space: 4.7272727272727272727272727272727rem;
 $white-color: #ffffff;
@@ -18,3 +20,4 @@ $summary-dl-bar-bcg-color: $dark-gray;
 $white-box-text-color: $dark-gray;
 $white-box-bcg-color: $white-color;
 $requirements-bcg-color: $light-gray;
+$sidebar-bcg-color: $dark-gray;
