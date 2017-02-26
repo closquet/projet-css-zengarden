@@ -1,0 +1,13 @@
+.summary{
+  display: flex;
+  flex-direction: column;
+  min-height: 40.4545454545454545454545454545455em; //890px / 22px
+  & p:nth-child(1) {
+    @include white-box(23.1666em, 1.5em);
+  }
+  & p:nth-child(2){
+    order: -1;
+    background-color: $summary-dl-bar-bcg-color;
+    height: $vertical-space;
+  }
+}

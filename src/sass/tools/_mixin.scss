@@ -1,0 +1,24 @@
+@mixin hide() {
+  position: absolute;
+  height: 1px; width: 1px;
+  overflow: hidden;
+  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+}
+
+@mixin replaceByImage($urlImage, $width, $height) {
+  background-image: url($urlImage);
+  overflow: hidden;
+  text-indent: -9999px;
+  width: $width;
+  height: $height;
+}
+
+@mixin white-box($width, $f-size: 1em) {
+  width: $width;
+  padding: 4em;
+  border: 1px solid black;
+  font-size: $f-size;
+  color: $white-box-text-color;
+  background-color: $white-box-bcg-color;
+}

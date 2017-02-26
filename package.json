@@ -1,0 +1,13 @@
+{
+    "name": "css-zengarden",
+    "version": "0.0.1",
+    "private": true,
+    "devDependencies": {
+        "browser-sync": "^2.18.7",
+        "gulp": "^3.9.1",
+        "gulp-autoprefixer": "^3.1.1",
+        "gulp-csso": "^2.0.0",
+        "gulp-image": "^2.7.5",
+        "gulp-sass": "^3.1.0"
+    }
+}
