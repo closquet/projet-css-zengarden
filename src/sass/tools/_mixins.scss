@@ -13,12 +13,3 @@
   width: $width;
   height: $height;
 }
-
-@mixin white-box($width, $f-size: 1em) {
-  width: $width;
-  padding: 4em;
-  border: 1px solid black;
-  font-size: $f-size;
-  color: $white-box-text-color;
-  background-color: $white-box-bcg-color;
-}

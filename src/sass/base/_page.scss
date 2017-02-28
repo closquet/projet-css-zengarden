@@ -1,11 +1,10 @@
-html, html *{
-  box-sizing: border-box;
-}
-body{
+html{
   font-family: $main-font, $system-fonts;
   font-size: $global-font-size;
   line-height: $global-line-height;
   color: $global-text-color;
   max-width: 1920px;
+  min-height: 100%;
   margin: 0 auto;
+
 }

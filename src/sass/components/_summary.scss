@@ -1,13 +1,36 @@
 .summary{
-  display: flex;
-  flex-direction: column;
-  min-height: 40.4545454545454545454545454545455em; //890px / 22px
-  & p:nth-child(1) {
-    @include white-box(23.1666em, 1.5em);
+  position: relative;
+  p:nth-child(1) {
+
+    width: 35em;
+    position: absolute;
+    top: -5em;
+    left: -16.5em;
+    margin-left: 50%;
   }
-  & p:nth-child(2){
-    order: -1;
+  p:nth-child(2){
+
     background-color: $summary-dl-bar-bcg-color;
     height: $vertical-space;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 12.5%;
+    color: $gray-text;
+    a{
+
+      margin: 0 0.5em;
+      text-transform: uppercase;
+      color: $white-color;
+      text-decoration: none;
+      &:last-of-type{
+
+        margin-right: 0;
+    }
+      &:hover{
+
+        text-decoration: underline;
+      }
+    }
   }
 }
