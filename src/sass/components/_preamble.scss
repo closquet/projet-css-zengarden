@@ -3,13 +3,34 @@
   margin: 0 auto;
   color: $white-color;
   background-color: $light-gray;
+  position: relative;
+  
+  &:after{
+    content: '';
+    display: block;
+    width: 33%;
+    height: 20em;
+    background-image: url($preamble-image);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    position: absolute;
+    top: 4em;
+    left: 55%;
+  }
+  
   h3{
     width: 21.6em;
-    margin-left: auto;
   }
+  
   p{
-    width: 32.5em;
-    margin-left: auto;
+    width: 53%;
+    &:nth-of-type(1){
+    }
+    &:nth-of-type(2){
+    }
+    &:nth-of-type(3){
+    }
   }
 
 }
