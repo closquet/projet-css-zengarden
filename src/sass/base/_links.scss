@@ -1,0 +1,12 @@
+a{
+  color: $link-text-color;
+  text-decoration: none;
+  text-shadow: 1px 1px 1px #000;
+
+  &:hover{
+    text-shadow: 3px 3px 6px #000;
+    position: relative;
+    left: -1px;
+    top: -2px;
+  }
+}
