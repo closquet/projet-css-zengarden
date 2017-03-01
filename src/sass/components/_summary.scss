@@ -19,3 +19,19 @@
     text-transform: uppercase;
   }
 }
+
+
+@media (max-width: 1000px) {
+  .summary{
+    display: block;
+
+    p:nth-child(1){
+      width: 35em;
+    }
+  }
+}
+@media (max-width: 710px) {
+  .summary p:nth-child(1){
+      width: 100%;
+    }
+}
