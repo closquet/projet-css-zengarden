@@ -1,4 +1,4 @@
-.requirements{
-  min-height: 28.045454545454545454545454545455em;
+.main .requirements{
   background-color: $requirements-bcg-color;
+  @include alone-item();
 }
