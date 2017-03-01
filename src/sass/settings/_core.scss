@@ -2,23 +2,25 @@
 
 $global-font-size: 22px;
 $global-line-height: 1.4;
-//$font-ratio: 1.802;
-
-
-$vertical-space: 4.7272727272727272727272727272727 * $global-font-size;
-$white-color: #ffffff;
-$global-text-color: $white-color;
-$dark-gray: #484e5c;
-$light-gray: #6d717d;
-$gray-text: #dddddd;
-$main-font: 'Montserrat';
 $system-fonts: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+$main-font: 'Montserrat';
+
 $banner-bcg-image: './banner-bcg.jpg';
 $main-bcg-image: './main-bcg.jpg';
 $preamble-image: './W3C.png';
+
+
+
+$light-gray: #6d717d;
+$white-color: #ffffff;
+$gray-text: #dddddd;
+$dark-gray: #484e5c;
+$light-blue: #BDFFFF;
+
+$global-text-color: $white-color;
+$link-text-color: $light-blue;
 $summary-dl-bar-bcg-color: $dark-gray;
-$white-box-text-color: $dark-gray;
-$white-box-bcg-color: $white-color;
-$requirements-bcg-color: $light-gray;
+$benefits-bcg-color: $light-gray;
+$requirements-bcg-color: $dark-gray;
+$footer-bcg-color: $light-gray;
 $sidebar-bcg-color: $dark-gray;
-$link-text-color: #BDFFFF;

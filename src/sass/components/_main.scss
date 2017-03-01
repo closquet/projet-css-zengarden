@@ -2,7 +2,7 @@
   //height: 86.045454545454545454545454545455em;
   background: url($main-bcg-image) no-repeat;
   background-size: contain;
-  padding: 2.5em 12.5%;
+  padding: 2.5em 12.5% 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -11,38 +11,11 @@
   [role="article"]{
     margin-bottom: 2.5em;
     width: 28em;
-
-
-  }
-  .explanation{
-
-  }
-
-  .participation{
-
   }
 
   .benefits{
-    width: 135%;
-    margin-left: -16.6%;
-    margin-right: -16.7%;
-    padding: 2.5em 0;
-    background: $dark-gray;
-
-    h3{
-      margin-left: 12.5%;
-    }
-
-    p{
-      columns: 2;
-      margin-left: 12.5%;
-      margin-right: 12.5%;
-      column-gap: 9.4em;
-    }
-  }
-
-  .requirements{
-
+    background: $benefits-bcg-color;
+    @include alone-item();
   }
 }
 
