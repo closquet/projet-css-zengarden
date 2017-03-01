@@ -8,17 +8,43 @@ h1{
   font-size: 6em;
   text-transform: uppercase;
   text-align: center;
-  width: 75%;
+  width: 10em;
   margin-left: auto;
   margin-right: auto;
   border: 0.1em solid $white-color;
 }
 h2{
-  font-size: 2.5em;
+  font-size: 3em;
   text-align: center;
   width: 75%;
-  margin: 2.8181818181818181818181818181818em auto 0;
+  margin: 2em auto 0;
 }
 h3{
-  font-size: 1.5em;
+  font-size: 1.2em;
 }
+
+
+  @media (max-width: 1100px) {
+    h1{
+      font-size: 4.5em;
+    }
+    h2{
+      font-size: 2.25em;
+    }
+  }
+  @media (max-width: 800px) {
+    h1{
+      font-size: 3em;
+    }
+    h2{
+      font-size: 1.5em;
+    }
+  }
+  @media (max-width: 550px) {
+    h1{
+      width: 5em;
+    }
+    h2{
+      font-size: 1.5em;
+    }
+  }

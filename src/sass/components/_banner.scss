@@ -1,5 +1,20 @@
 [role="banner"]{
-  height: 41.045454545454545454545454545455em; //903px / 22px
-  padding-top: 14.272727272727272727272727272727em;
+  height: 41em;
+  padding-top: 14em;
   background: url($banner-bcg-image) center;
+  background-size: cover;
+}
+
+
+@media (max-width: 800px) {
+  [role="banner"]{
+    height: 30em;
+    padding-top: 10em;
+  }
+}
+@media (max-width: 550px) {
+  [role="banner"]{
+    height: 25em;
+    padding-top: 5em;
+  }
 }
