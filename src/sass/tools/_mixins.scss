@@ -13,3 +13,20 @@
   width: $width;
   height: $height;
 }
+
+@mixin alone-item() {
+  width: 135%;
+  margin: 0 -16.7% 0 -16.6%;
+  padding: 2.5em 0;
+
+  h3{
+    margin-left: 12.5%;
+  }
+
+  p{
+    columns: 2;
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+    column-gap: 9.4em;
+  }
+}
