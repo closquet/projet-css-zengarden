@@ -1,4 +1,26 @@
 .sidebar{
-  min-height: 20.636363636363636363636363636364em; //454px / 22em
+  //min-height: 20.636363636363636363636363636364em; //454px / 22em
   background-color: $sidebar-bcg-color;
+
+  .wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 2.5em 12.5%;
+  }
+
+  ul{
+    margin-left: 0;
+  }
+
+  li{
+    list-style-type: none;
+  }
+  
+  .designer-name{
+    color: darken($link-text-color, 20%);
+  }
+
+  .indicator{
+    display: none;
+  }
 }
