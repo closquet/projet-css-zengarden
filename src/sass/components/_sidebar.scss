@@ -4,8 +4,12 @@
 
   .wrapper{
     display: flex;
-    justify-content: space-between;
     padding: 2.5em 12.5%;
+
+    > div{
+      margin-right: 3em;
+
+    }
   }
 
   ul{
@@ -24,3 +28,38 @@
     display: none;
   }
 }
+
+@media (max-width: 1000px){
+  .sidebar .wrapper{
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: space-between;
+    height: 25em;
+
+    > div{
+      margin-bottom: 2em;
+    }
+  }
+}
+@media (max-width: 710px){
+  .sidebar .wrapper{
+    padding: 2.5em 6%;
+  }
+}
+@media (max-width: 640px){
+  .sidebar .wrapper{
+    display: block;
+    height: auto;
+
+    > div{
+      margin-right: 0; 
+    }
+  }
+}
+
+
+
+
+
+
