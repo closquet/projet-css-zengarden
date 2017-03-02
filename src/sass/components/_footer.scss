@@ -8,8 +8,17 @@
   width: 135%;
   margin: 0 -16.7% 0 -16.6%;
 
-  a{
+  a + a{
     text-transform: uppercase;
-    margin-left: 1.5em;
+    margin-left: 1.2em;
+  }
+}
+
+@media (max-width: 710px) {
+  .main footer{
+    width: 113.6%;
+    margin: 0 -6.7% 0 -6.6%;
+    padding: 0 6.5%;
+    justify-content: center;
   }
 }
