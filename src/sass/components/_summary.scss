@@ -31,6 +31,9 @@
   }
 }
 @media (max-width: 710px) {
+  .summary{
+    padding: 0 6%;
+  }
   .summary p:nth-child(1){
       width: 100%;
     }
