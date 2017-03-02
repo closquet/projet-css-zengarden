@@ -19,9 +19,17 @@
   li{
     list-style-type: none;
   }
+
+  .design-selection li{
+    margin-bottom: 0.5em;
+  }
   
   .designer-name{
-    color: darken($link-text-color, 20%);
+    text-transform: uppercase;
+    margin-left: 0.5em;
+  }
+  .design-name{
+    margin-right: 0.5em;
   }
 
   .indicator{
