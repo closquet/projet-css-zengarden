@@ -1,7 +1,7 @@
 .main{
   //height: 86.045454545454545454545454545455em;
   background: url($main-bcg-image) no-repeat;
-  background-size: contain;
+  background-size: 89em auto;
   padding: 2.5em 12.5% 0;
   display: flex;
   flex-wrap: wrap;
@@ -10,7 +10,7 @@
 
   [role="article"]{
     margin-bottom: 2.5em;
-    width: 28em;
+    width: 45%;
   }
 
   .benefits{
@@ -19,4 +19,39 @@
   }
 }
 
+@media (max-width: 1030px) {
+  .main {
+
+    .explanation, .participation{
+      width: 35em;
+    }
+
+    .benefits p{
+      columns: initial;
+      width: 35em;
+    }
+  }
+}
+@media (max-width: 750px) {
+  .main {
+    background: $dark-gray;
+
+    .explanation, .participation{
+      width: 100%;
+    }
+  }
+}
+@media (max-width: 710px) {
+  .main {
+    padding: 2.5em 6% 0;
+
+    .benefits{
+      @include alone-item-responsive;
+
+      p{
+        width: 85%;
+      }
+    }
+  }
+}
 
