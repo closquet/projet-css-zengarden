@@ -2,3 +2,20 @@
   background-color: $requirements-bcg-color;
   @include alone-item();
 }
+
+@media (max-width: 1030px) {
+  .main .requirements p{
+    columns: initial;
+    width: 35em;
+  }
+}
+
+@media (max-width: 710px) {
+  .main .requirements{
+    @include alone-item-responsive;
+  }
+
+  .main .requirements p{
+    width: 85%;
+  }
+}
