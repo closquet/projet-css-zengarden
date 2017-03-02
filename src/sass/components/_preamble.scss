@@ -1,5 +1,4 @@
 .preamble{
-  min-height: 25em;
   margin: 0 auto;
   padding: 2.5em 12.5%;
   color: $white-color;
@@ -24,4 +23,23 @@
     width: 53%;
   }
 
+}
+
+@media (max-width: 710px) {
+  .preamble{
+    position: static;
+
+    &:after{
+      content: normal;
+      display: none;
+      width: 0;
+      height: 0;
+      background-image: none;
+      position: static;
+    }
+
+    p{
+      width: 100%;
+    }
+  }
 }
